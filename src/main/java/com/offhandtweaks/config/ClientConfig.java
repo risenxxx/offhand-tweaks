@@ -91,7 +91,7 @@ public final class ClientConfig {
             allowFoodRMB = builder
                     .comment("Allow eating food via offhand RMB.")
                     .translation("offhandtweaks.config.allowFoodRMB")
-                    .define("allowFoodRMB", false);
+                    .define("allowFoodRMB", true);
 
             allowOtherBlocksRMB = builder
                     .comment("Allow using/placing any other offhand item via RMB (not covered by the categories above).")

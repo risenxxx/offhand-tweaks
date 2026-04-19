@@ -35,11 +35,11 @@ Each client decides — independently of the server — whether the offhand shou
 | Toggle                  | Covers                                                                                    | Default |
 |-------------------------|-------------------------------------------------------------------------------------------|---------|
 | `allowShieldRMB`        | Any `ShieldItem` (vanilla shields and modded shields)                                     | `true`  |
-| `allowFoodRMB`          | Edible items (`Item.isEdible()`)                                                          | `false` |
+| `allowFoodRMB`          | Edible items (`Item.isEdible()`)                                                          | `true`  |
 | `allowLightSourcesRMB`  | Items in the `#offhandtweaks:light_sources` tag (torches, lanterns, candles, glowstone, …) | `false` |
 | `allowOtherBlocksRMB`   | Any other offhand item not covered above                                                  | `false` |
 
-Shields are allowed by default (the common QoL target is preventing torch/food misplacement, not shield-raising). Flip any toggle to change that — `true` restores vanilla behaviour for that category, `false` blocks it.
+Shields and food are allowed by default (the common QoL target is preventing torch/block misplacement, not blocking the defensive/eating flow). Flip any toggle to change that — `true` restores vanilla behaviour for that category, `false` blocks it.
 
 ### How it prevents desync
 
