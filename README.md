@@ -65,14 +65,15 @@ Requires JDK 17.
 After running once, edit `run/config/offhandtweaks-client.toml`:
 
 ```toml
-[offhand_rmb]
-    allowShieldRMB = false
-    allowLightSourcesRMB = false
-    allowFoodRMB = false
-    allowOtherBlocksRMB = false
+allowShieldRMB = true
+allowLightSourcesRMB = false
+allowFoodRMB = true
+allowOtherBlocksRMB = false
 ```
 
 Reloading the config (it hot-reloads) re-pushes the new state to the connected server automatically.
+
+The mod also ships a **built-in config screen**: open the Mods list → select Offhand Tweaks → click **Config**. Each toggle is a vanilla `CycleButton`, so ON shows in green and OFF in red — identical styling to Minecraft's own options menu. Changes save and re-sync to the server immediately.
 
 ### Extending the light-sources tag
 

@@ -1,15 +1,18 @@
 package com.offhandtweaks.events;
 
 import com.offhandtweaks.OffhandTweaks;
+import com.offhandtweaks.client.OffhandTweaksConfigScreen;
 import com.offhandtweaks.config.ClientConfig;
 import com.offhandtweaks.network.ConfigSyncPacket;
 import com.offhandtweaks.network.NetworkHandler;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.client.event.ClientPlayerNetworkEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.ModLoadingContext;
 
 /**
  * Client-only forge-bus listeners.
@@ -30,6 +33,15 @@ public final class ClientEvents {
 
     public static void register() {
         MinecraftForge.EVENT_BUS.register(ClientEvents.class);
+
+        // Expose a custom config screen — shown when the user clicks "Config" in the mods list.
+        // Uses vanilla CycleButtons, so ON/OFF inherit Minecraft's green/red colouring for free.
+        ModLoadingContext.get().registerExtensionPoint(
+                ConfigScreenHandler.ConfigScreenFactory.class,
+                () -> new ConfigScreenHandler.ConfigScreenFactory(
+                        (mc, parent) -> new OffhandTweaksConfigScreen(parent)
+                )
+        );
     }
 
     @SubscribeEvent

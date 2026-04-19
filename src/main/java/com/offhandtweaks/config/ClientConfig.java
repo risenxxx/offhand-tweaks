@@ -73,9 +73,10 @@ public final class ClientConfig {
         final ForgeConfigSpec.BooleanValue allowOtherBlocksRMB;
 
         Holder(ForgeConfigSpec.Builder builder) {
+            // No push/pop — toggles live at the top level so GUI mods like Configured
+            // display them on the first page without a nested "offhand_rmb" subsection.
             builder.comment("Offhand Tweaks — client-side right-click behavior toggles.",
-                            "Defaults are false (blocked); set to true to restore vanilla behavior for that category.")
-                   .push("offhand_rmb");
+                            "Set to true to restore vanilla behavior for that category, false to block.");
 
             allowShieldRMB = builder
                     .comment("Allow raising a shield via offhand RMB.")
@@ -97,8 +98,6 @@ public final class ClientConfig {
                     .comment("Allow using/placing any other offhand item via RMB (not covered by the categories above).")
                     .translation("offhandtweaks.config.allowOtherBlocksRMB")
                     .define("allowOtherBlocksRMB", false);
-
-            builder.pop();
         }
     }
 }
