@@ -1,0 +1,45 @@
+# Gradle
+.gradle/
+build/
+out/
+bin/
+
+# Forge run directories
+run/
+run-data/
+run-client/
+run-server/
+runs/
+src/generated/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.eclipse/
+.project
+.classpath
+.settings/
+eclipse/
+.factorypath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Publishing artifacts
+repo/
+
+# Logs
+*.log
+logs/
+crash-reports/
+
+# Local overrides / dev secrets (never commit — real tokens live in GitHub secrets)
+local.properties
+*.local.properties
+.env
+.env.*
+secrets.properties
