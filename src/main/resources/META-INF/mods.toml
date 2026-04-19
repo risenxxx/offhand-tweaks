@@ -1,13 +1,16 @@
 modLoader="javafml"
 loaderVersion="${loader_version_range}"
 license="${mod_license}"
-issueTrackerURL="https://github.com/offhandtweaks/offhand-tweaks/issues"
+issueTrackerURL="https://github.com/risenxxx/offhand-tweaks/issues"
 
 [[mods]]
 modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
+displayURL="https://github.com/risenxxx/offhand-tweaks"
+logoFile="logo.png"
 authors="${mod_authors}"
+credits="Thanks to the Forge community for the modding docs and examples."
 description='''${mod_description}'''
 
 [[dependencies.${mod_id}]]
