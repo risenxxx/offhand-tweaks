@@ -80,7 +80,7 @@ public final class ClientConfig {
             allowShieldRMB = builder
                     .comment("Allow raising a shield via offhand RMB.")
                     .translation("offhandtweaks.config.allowShieldRMB")
-                    .define("allowShieldRMB", false);
+                    .define("allowShieldRMB", true);
 
             allowLightSourcesRMB = builder
                     .comment("Allow placing / using light sources (torches, lanterns, candles, etc.) via offhand RMB.",

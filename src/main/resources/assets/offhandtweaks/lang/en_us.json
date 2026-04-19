@@ -1,7 +1,7 @@
 {
     "offhandtweaks.config.title": "Offhand Tweaks — Client Config",
     "offhandtweaks.config.allowShieldRMB": "Allow shield RMB",
-    "offhandtweaks.config.allowShieldRMB.tooltip": "When true, right-clicking with a shield in the offhand raises the shield (vanilla). When false, the offhand shield does nothing on RMB.",
+    "offhandtweaks.config.allowShieldRMB.tooltip": "When true (default), right-clicking with a shield in the offhand raises the shield (vanilla). When false, the offhand shield does nothing on RMB.",
     "offhandtweaks.config.allowLightSourcesRMB": "Allow light-source RMB",
     "offhandtweaks.config.allowLightSourcesRMB.tooltip": "When true, torches / lanterns / lamps / candles placed from the offhand behave as in vanilla. When false, RMB with light sources in the offhand is blocked.",
     "offhandtweaks.config.allowFoodRMB": "Allow food RMB",

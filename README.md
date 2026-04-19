@@ -32,14 +32,14 @@ Unlike simple client-side macros or basic server-side scripts that cause annoyin
 
 Each client decides — independently of the server — whether the offhand should activate on RMB for:
 
-| Toggle                  | Covers                                                                                    |
-|-------------------------|-------------------------------------------------------------------------------------------|
-| `allowShieldRMB`        | Any `ShieldItem` (vanilla shields and modded shields)                                     |
-| `allowFoodRMB`          | Edible items (`Item.isEdible()`)                                                          |
-| `allowLightSourcesRMB`  | Items in the `#offhandtweaks:light_sources` tag (torches, lanterns, candles, glowstone, …) |
-| `allowOtherBlocksRMB`   | Any other offhand item not covered above                                                  |
+| Toggle                  | Covers                                                                                    | Default |
+|-------------------------|-------------------------------------------------------------------------------------------|---------|
+| `allowShieldRMB`        | Any `ShieldItem` (vanilla shields and modded shields)                                     | `true`  |
+| `allowFoodRMB`          | Edible items (`Item.isEdible()`)                                                          | `false` |
+| `allowLightSourcesRMB`  | Items in the `#offhandtweaks:light_sources` tag (torches, lanterns, candles, glowstone, …) | `false` |
+| `allowOtherBlocksRMB`   | Any other offhand item not covered above                                                  | `false` |
 
-All four toggles default to **`false`** (blocked). Set a toggle to `true` to restore vanilla behaviour for that category.
+Shields are allowed by default (the common QoL target is preventing torch/food misplacement, not shield-raising). Flip any toggle to change that — `true` restores vanilla behaviour for that category, `false` blocks it.
 
 ### How it prevents desync
 

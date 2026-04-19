@@ -1,0 +1,11 @@
+{
+    "offhandtweaks.config.title": "Offhand Tweaks — Настройки клиента",
+    "offhandtweaks.config.allowShieldRMB": "Разрешить ПКМ для щита",
+    "offhandtweaks.config.allowShieldRMB.tooltip": "Когда включено (по умолчанию), ПКМ со щитом в левой руке поднимает щит (ванильное поведение). Когда выключено, щит в левой руке не реагирует на ПКМ.",
+    "offhandtweaks.config.allowLightSourcesRMB": "Разрешить ПКМ для источников света",
+    "offhandtweaks.config.allowLightSourcesRMB.tooltip": "Когда включено, факелы, фонари, лампы, свечи и т. п. из левой руки работают как в ванили. Когда выключено, ПКМ с источниками света в левой руке блокируется.",
+    "offhandtweaks.config.allowFoodRMB": "Разрешить ПКМ для еды",
+    "offhandtweaks.config.allowFoodRMB.tooltip": "Когда включено, съедобные предметы можно есть из левой руки. Когда выключено, ПКМ с едой в левой руке блокируется.",
+    "offhandtweaks.config.allowOtherBlocksRMB": "Разрешить ПКМ для прочих предметов",
+    "offhandtweaks.config.allowOtherBlocksRMB.tooltip": "Когда включено, любой предмет в левой руке, не попадающий в другие категории, активируется по ПКМ как в ванили. Когда выключено, такие предметы блокируются."
+}
