@@ -1,5 +1,11 @@
 # Offhand Tweaks
 
+[![CurseForge](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/available/curseforge_vector.svg)](https://www.curseforge.com/minecraft/mc-mods/offhand-tweaks)
+[![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/mod/offhand-tweaks)
+
+[![CurseForge downloads](https://img.shields.io/curseforge/dt/1519058?logo=curseforge&label=CurseForge&color=F16436)](https://www.curseforge.com/minecraft/mc-mods/offhand-tweaks)
+[![Modrinth downloads](https://img.shields.io/modrinth/dt/offhand-tweaks?logo=modrinth&label=Modrinth&color=00AF5C)](https://modrinth.com/mod/offhand-tweaks)
+
 **Stop accidental shield blocks and misplacing torches!** Offhand Tweaks is a lightweight, highly customizable Quality of Life (QoL) mod that gives you complete control over your offhand slot. Selectively disable offhand right-click interactions based on item categories, freeing up your Right Mouse Button (RMB) for interacting with the world, opening chests, or tweaking machinery without constantly unequipping your offhand item.
 
 ## ✨ Features
