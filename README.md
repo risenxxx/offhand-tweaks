@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/risenxxx/offhand-tweaks/main/logo.png" width="220" alt="Offhand Tweaks logo">
+</p>
+
 # Offhand Tweaks
 
 [![CurseForge](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/available/curseforge_vector.svg)](https://www.curseforge.com/minecraft/mc-mods/offhand-tweaks)
